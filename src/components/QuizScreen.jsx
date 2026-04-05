@@ -53,7 +53,7 @@ export default function QuizScreen({
         minHeight: "100vh",
         background: T.bg,
         color: T.text,
-        fontFamily: "Georgia,serif",
+        fontFamily: T.fontFamily,
       }}
     >
       <div
@@ -165,6 +165,18 @@ export default function QuizScreen({
           >
             {q.text}
           </div>
+          {q.image && (
+            <img
+              src={q.image}
+              alt={`Pregunta ${q.number}`}
+              style={{
+                width: "100%",
+                maxWidth: 640,
+                marginTop: 18,
+                borderRadius: 14,
+              }}
+            />
+          )}
         </div>
 
         {/* Options */}

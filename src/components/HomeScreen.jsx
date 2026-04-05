@@ -12,7 +12,7 @@ export default function HomeScreen({ onStartQuiz }) {
         minHeight: "100vh",
         background: T.bg,
         color: T.text,
-        fontFamily: "Georgia,serif",
+        fontFamily: T.fontFamily,
       }}
     >
       <div

@@ -7,161 +7,230 @@
       "description": "Evalúa la capacidad para percibir patrones de relación entre números y letras.",
       "questions": [
         {
-          "id": "s1", "number": 1,
+          "id": "s1",
+          "number": 1,
           "text": "21  26  22  27  23  __",
           "options": ["24", "25", "26", "27", "28"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s2", "number": 2,
+          "id": "s2",
+          "number": 2,
           "text": "A  E  B  F  C  G  D  H  __",
           "options": ["E", "F", "G", "H", "I"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s3", "number": 3,
+          "id": "s3",
+          "number": 3,
           "text": "A  B  C  C  B  C  D  D  C  D  E  __",
           "options": ["C", "D", "E", "F", "G"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s4", "number": 4,
+          "id": "s4",
+          "number": 4,
           "text": "24  25  28  33  40  __",
           "options": ["41", "43", "45", "48", "49"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s5", "number": 5,
+          "id": "s5",
+          "number": 5,
           "text": "1A  2C  3G  4M  __",
           "options": ["5R", "5S", "5T", "5U", "5V"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s6", "number": 6,
+          "id": "s6",
+          "number": 6,
           "text": "C3  F6  I9  L6  __",
           "options": ["N3", "N9", "Ñ3", "Ñ9", "O3"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s7", "number": 7,
+          "id": "s7",
+          "number": 7,
           "text": "Matriz: Fila 1: 2, 4, 8, 16, __  /  Fila 2: 7, 8, 10, 13, __",
           "options": ["20, 16", "24, 16", "24, 17", "32, 17", "32, 18"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s8", "number": 8,
+          "id": "s8",
+          "number": 8,
           "text": "Matriz: Fila 1: 121, 7, 25, 3, __  /  Fila 2: 11, 49, 5, 9, __",
           "options": ["1, 1", "2, 41", "4, 16", "21, 11", "36, 6"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s9", "number": 9,
+          "id": "s9",
+          "number": 9,
           "text": "Matriz: Fila 1: 4, 8, 5, 7, __  /  Fila 2: 4, 12, 17, 24, __",
           "options": ["3, 30", "6, 28", "6, 30", "8, 28", "9, 30"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s10", "number": 10,
+          "id": "s10",
+          "number": 10,
           "text": "Matriz: Fila 1: 1, 1, 2, 4, __  /  Fila 2: 2, 3, 4, 6, __",
           "options": ["6, 7", "6, 8", "8, 8", "8, 9", "8, 10"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s11", "number": 11,
+          "id": "s11",
+          "number": 11,
           "text": "AZ3,6  CX9,12  EV15,18  __",
           "options": ["FS21,24", "FT21,24", "GS24,21", "GT21,24", "HT21,24"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s12", "number": 12,
+          "id": "s12",
+          "number": 12,
           "text": "ZO  A2  Y4  B6  __ __ __",
-          "options": ["C8, D10, E12", "C8, X10, D12", "X8, C10, W12", "X8, D10, W12", "W8, C10, X12"],
+          "options": [
+            "C8, D10, E12",
+            "C8, X10, D12",
+            "X8, C10, W12",
+            "X8, D10, W12",
+            "W8, C10, X12"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s13", "number": 13,
+          "id": "s13",
+          "number": 13,
           "text": "ABB  CDD  EFF  GHH  __ __ __",
-          "options": ["HHI, JKK, LMM", "HII, JKK, LMM", "IJJ, JKK, LMM", "IJJ, KLL, MNN", "JKK, LMM, NÑÑ"],
+          "options": [
+            "HHI, JKK, LMM",
+            "HII, JKK, LMM",
+            "IJJ, JKK, LMM",
+            "IJJ, KLL, MNN",
+            "JKK, LMM, NÑÑ"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s14", "number": 14,
+          "id": "s14",
+          "number": 14,
           "text": "A3  C6  E9  __ __ __",
-          "options": ["F12, G15, I18", "G12, H15, I18", "G12, I15, J18", "G12, I15, K18", "H12, J15, L18"],
+          "options": [
+            "F12, G15, I18",
+            "G12, H15, I18",
+            "G12, I15, J18",
+            "G12, I15, K18",
+            "H12, J15, L18"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s15", "number": 15,
+          "id": "s15",
+          "number": 15,
           "text": "A1  B4  C9  D16  __ __ __",
-          "options": ["E23, F30, G37", "E25, F36, G49", "E25, F32, G39", "F25, G36, H49", "F25, G32, H43"],
+          "options": [
+            "E23, F30, G37",
+            "E25, F36, G49",
+            "E25, F32, G39",
+            "F25, G36, H49",
+            "F25, G32, H43"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s16", "number": 16,
+          "id": "s16",
+          "number": 16,
           "text": "Matriz 3x3: Fila 1: 2, 4, 12  /  Fila 2: 3, __, 18  /  Fila 3: 4, 8, __",
           "options": ["5 y 24", "6 y 24", "6 y 32", "9 y 24", "9 y 32"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s17", "number": 17,
+          "id": "s17",
+          "number": 17,
           "text": "Matriz: Fila 1: DEF, EFG, FGH  /  Fila 2: LMN, MNÑ, __",
           "options": ["MNP", "NÑO", "NOP", "ÑNO", "ÑOP"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s18", "number": 18,
+          "id": "s18",
+          "number": 18,
           "text": "Matriz: Fila 1: 14, 28, 10, __  /  Fila 2: 11, 25, 7, 29  /  Fila 3: 25, 53, 17, 61",
           "options": ["20", "22", "30", "32", "34"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s19", "number": 19,
+          "id": "s19",
+          "number": 19,
           "text": "Matriz: Fila 1: 3, 15, 45  /  Fila 2: 6, 30, 90  /  Fila 3: 9, __, 135",
           "options": ["35", "40", "45", "60", "75"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s20", "number": 20,
+          "id": "s20",
+          "number": 20,
           "text": "Matriz: Fila 1: 150, 74, 36  /  Fila 2: 90, 44, 21  /  Fila 3: 70, 34, __",
           "options": ["14", "15", "16", "17", "18"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s21", "number": 21,
+          "id": "s21",
+          "number": 21,
           "text": "Matriz: Fila 1: 16, 4, 32  /  Fila 2: 28, 7, 56  /  Fila 3: 12, 3, __",
           "options": ["18", "21", "24", "27", "40"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s22", "number": 22,
+          "id": "s22",
+          "number": 22,
           "text": "Matriz 4x4: Fila 1: __, 11, 17, 26  /  Fila 2: 4, 7, 13, 22  /  Fila 3: 2, 5, 11, 20  /  Fila 4: 1, 4, 10, __",
           "options": ["7, 18", "7, 21", "8, 18", "8, 19", "8, 21"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s23", "number": 23,
+          "id": "s23",
+          "number": 23,
           "text": "Matriz 4x5 con códigos: 5CA1, 7504, 5TO1, 7TA4, __  /  6502, 8TO3, 6TA2, 8CA3, __  /  7TO3, 5TA2, 7CA3, 5502, __  /  8TA4, 6CA1, 8504, 6TO1, __",
           "options": [
             "5CA1 / 6502 / 7T03 / 8TA4",
@@ -171,38 +240,48 @@
             "5TO1 / 6TA2 / 7CA3 / 8SO4"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s24", "number": 24,
+          "id": "s24",
+          "number": 24,
           "text": "frijol  garbanzo  lenteja  chícharo  /  rosa  margarita  azálea  orquídea  /  fresa  mango  naranja  __",
           "options": ["aguacate", "chile", "lechuga", "papa", "zanahoria"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s25", "number": 25,
+          "id": "s25",
+          "number": 25,
           "text": "estufa  sartén  alimento  /  mesa  mantel  vajilla  /  plato  ensalada  __",
           "options": ["cubierto", "carne", "comida", "aderezo", "tenedor"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s26", "number": 26,
+          "id": "s26",
+          "number": 26,
           "text": "pelota  jugar  plástico  /  refrigerador  enfriar  aluminio  /  foco  iluminar  __",
           "options": ["acrílico", "cobre", "electricidad", "luz", "vidrio"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s27", "number": 27,
+          "id": "s27",
+          "number": 27,
           "text": "México  tortilla  alimento  /  Brasil  samba  baile  /  Japón  kimono  __",
           "options": ["artesanía", "baile", "teatro", "tradición", "traje"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s28", "number": 28,
+          "id": "s28",
+          "number": 28,
           "text": "Matriz: __  alpinismo  escalar  /  ciencia  aritmética  __  /  arte  __  actuar",
           "options": [
             "ejercitación, contar, comedia",
@@ -212,140 +291,185 @@
             "diversión, sumar, comedia"
           ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s29", "number": 29,
+          "id": "s29",
+          "number": 29,
           "text": "arquitecto  ingeniero  médico  /  edificio  carretera  operaciones  /  diseño  topografía  __",
-          "options": ["diagnóstico", "curación", "enfermedad", "medicina", "receta"],
+          "options": [
+            "diagnóstico",
+            "curación",
+            "enfermedad",
+            "medicina",
+            "receta"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s30", "number": 30,
+          "id": "s30",
+          "number": 30,
           "text": "Matriz: Fila 1: DEF, EFG, FGH  /  Fila 2: LMN, MNO, __",
           "options": ["OPQ", "NOP", "JKL", "MNP", "GHI"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s31", "number": 31,
+          "id": "s31",
+          "number": 31,
           "text": "Matriz: Fila 1: 14, 28, 10, __  /  Fila 2: 11, 15, 12, 17  /  Fila 3: 25, 13, 22, 16",
           "options": ["18", "33", "35", "42", "46"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s32", "number": 32,
+          "id": "s32",
+          "number": 32,
           "text": "Matriz: Fila 1: 3, 6, 12, 24, __  /  Fila 2: 1, 2, 4, 7, __",
           "options": ["30, 10", "30, 11", "36, 10", "36, 11", "48, 11"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s33", "number": 33,
+          "id": "s33",
+          "number": 33,
           "text": "Matriz: Fila 1: 121, 9, 49, 5, __  /  Fila 2: 11, 81, 7, 25, __",
           "options": ["1, 1", "3, 9", "4, 16", "6, 36", "9, 3"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s34", "number": 34,
+          "id": "s34",
+          "number": 34,
           "text": "Matriz: Fila 1: 5, 17  /  Fila 2: 16, 4  /  Fila 3: __, 3",
           "options": ["2", "6", "12", "15", "18"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s35", "number": 35,
+          "id": "s35",
+          "number": 35,
           "text": "1A  2D  3I  4P  __",
           "options": ["5A", "5B", "5X", "5Y", "5Z"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s36", "number": 36,
+          "id": "s36",
+          "number": 36,
           "text": "C3  F6  I9  L6  __",
           "options": ["N, 11", "Ñ, 10", "Ñ, 11", "O, 11", "O, 13"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s37", "number": 37,
+          "id": "s37",
+          "number": 37,
           "text": "B1  C3  D5  E7  F9  __",
           "options": ["G, 11", "G, 13", "H, 11", "H, 13", "I, 11"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s38", "number": 38,
+          "id": "s38",
+          "number": 38,
           "text": "24  26  30  36  44  __",
           "options": ["46", "48", "50", "52", "54"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s39", "number": 39,
+          "id": "s39",
+          "number": 39,
           "text": "1  6  2  7  3  __",
           "options": ["1", "4", "6", "7", "8"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "s40", "number": 40,
+          "id": "s40",
+          "number": 40,
           "text": "A  E  B  I  C  M  D  __",
           "options": ["E", "O", "P", "Q", "F"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s41", "number": 41,
+          "id": "s41",
+          "number": 41,
           "text": "A  B  B  A  B  C  C  B  C  D  D  C  D  E  __",
           "options": ["E", "F", "D", "C", "B"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "s42", "number": 42,
+          "id": "s42",
+          "number": 42,
           "text": "B2  4D  F6  8H  __",
           "options": ["91", "10J", "G7", "J10", "I9"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s43", "number": 43,
+          "id": "s43",
+          "number": 43,
           "text": "8  2  7  3  6  4  5  __",
           "options": ["3", "4", "5", "6", "7"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s44", "number": 44,
+          "id": "s44",
+          "number": 44,
           "text": "ABB  CDD  EFF  GHH  __",
           "options": ["HII", "IJJ", "IJK", "JKK", "KLL"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "s45", "number": 45,
+          "id": "s45",
+          "number": 45,
           "text": "A3  C6  E9  __",
           "options": ["F11", "F12", "G11", "G12", "H11"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "s46", "number": 46,
+          "id": "s46",
+          "number": 46,
           "text": "ZO  A2  Y4  B6  __",
           "options": ["C8", "C10", "X8", "X10", "W8"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "s47", "number": 47,
+          "id": "s47",
+          "number": 47,
           "text": "A1  B4  C9  D16  __",
           "options": ["E21", "E23", "E25", "F21", "F23"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         }
       ]
     },
@@ -355,109 +479,223 @@
       "description": "Mide la habilidad de extraer relaciones y hacer comparaciones basadas en reglas de similaridad.",
       "questions": [
         {
-          "id": "a1", "number": 1,
+          "id": "a1",
+          "number": 1,
           "text": "528/48 : 33 :: __",
-          "options": ["135/27 : 10", "155/31 : 15", "506/23 : 3", "572/25 : 44", "336/16 : 84"],
+          "options": [
+            "135/27 : 10",
+            "155/31 : 15",
+            "506/23 : 3",
+            "572/25 : 44",
+            "336/16 : 84"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "a2", "number": 2,
+          "id": "a2",
+          "number": 2,
           "text": "225/5 : 2025 :: __",
-          "options": ["25/4 : 225", "35/2 : 150", "45/3 : 225", "50/4 : 125", "60/3 : 90"],
+          "options": [
+            "25/4 : 225",
+            "35/2 : 150",
+            "45/3 : 225",
+            "50/4 : 125",
+            "60/3 : 90"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "a3", "number": 3,
+          "id": "a3",
+          "number": 3,
           "text": "5 : 30 :: __",
           "options": ["2 : 9", "3 : 11", "6 : 40", "7 : 56", "8 : 64"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "a4", "number": 4,
+          "id": "a4",
+          "number": 4,
           "text": "1 + 3 + 7 : 56 :: __",
-          "options": ["1 + 2 + 5 : 63", "1 + 3 + 11 : 65", "2 + 3 + 5 : 50", "3 + 5 + 7 : 60", "3 + 5 + 11 : 74"],
+          "options": [
+            "1 + 2 + 5 : 63",
+            "1 + 3 + 11 : 65",
+            "2 + 3 + 5 : 50",
+            "3 + 5 + 7 : 60",
+            "3 + 5 + 11 : 74"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "a5", "number": 5,
+          "id": "a5",
+          "number": 5,
           "text": "98, 196 : 2 :: __",
-          "options": ["49, 147 : 2", "57, 170 : 2", "64, 130 : 2", "76, 230 : 3", "85, 255 : 3"],
+          "options": [
+            "49, 147 : 2",
+            "57, 170 : 2",
+            "64, 130 : 2",
+            "76, 230 : 3",
+            "85, 255 : 3"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "a6", "number": 6,
+          "id": "a6",
+          "number": 6,
           "text": "222/74 : 24 :: __",
-          "options": ["267/89 : 29", "276/92 : 52", "306/102 : 52", "342/114 : 50", "375/125 : 70"],
+          "options": [
+            "267/89 : 29",
+            "276/92 : 52",
+            "306/102 : 52",
+            "342/114 : 50",
+            "375/125 : 70"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "a7", "number": 7,
+          "id": "a7",
+          "number": 7,
           "text": "458, 398 : 368 :: __",
-          "options": ["237, 177 : 117", "321, 291 : 231", "477, 417 : 327", "523, 463 : 433", "650, 620 : 600"],
+          "options": [
+            "237, 177 : 117",
+            "321, 291 : 231",
+            "477, 417 : 327",
+            "523, 463 : 433",
+            "650, 620 : 600"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "a8", "number": 8,
+          "id": "a8",
+          "number": 8,
           "text": "960 : 720 :: __",
-          "options": ["100 : 80", "230 : 138", "340 : 306", "420 : 336", "520 : 390"],
+          "options": [
+            "100 : 80",
+            "230 : 138",
+            "340 : 306",
+            "420 : 336",
+            "520 : 390"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "a9", "number": 9,
+          "id": "a9",
+          "number": 9,
           "text": "44 : 132 : 66 :: __",
-          "options": ["28 : 84 : 28", "36 : 108 : 54", "42 : 84 : 28", "50 : 150 : 100", "68 : 204 : 136"],
+          "options": [
+            "28 : 84 : 28",
+            "36 : 108 : 54",
+            "42 : 84 : 28",
+            "50 : 150 : 100",
+            "68 : 204 : 136"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "a10", "number": 10,
+          "id": "a10",
+          "number": 10,
           "text": "245 : 256 : 269 :: __",
-          "options": ["77 : 88 : 101", "116 : 127 : 138", "131 : 144 : 155", "169 : 185 : 191", "187 : 203 : 207"],
+          "options": [
+            "77 : 88 : 101",
+            "116 : 127 : 138",
+            "131 : 144 : 155",
+            "169 : 185 : 191",
+            "187 : 203 : 207"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "a11", "number": 11,
+          "id": "a11",
+          "number": 11,
           "text": "5472 : 456 : 38 :: __",
-          "options": ["1224 : 102 : 17", "2340 : 195 : 39", "3540 : 295 : 59", "8208 : 684 : 57", "9840 : 820 : 70"],
+          "options": [
+            "1224 : 102 : 17",
+            "2340 : 195 : 39",
+            "3540 : 295 : 59",
+            "8208 : 684 : 57",
+            "9840 : 820 : 70"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "a12", "number": 12,
+          "id": "a12",
+          "number": 12,
           "text": "210 : 123 : 147 :: __",
-          "options": ["152 : 65 : 89", "169 : 82 : 62", "215 : 128 : 100", "267 : 180 : 160", "303 : 279 : 366"],
+          "options": [
+            "152 : 65 : 89",
+            "169 : 82 : 62",
+            "215 : 128 : 100",
+            "267 : 180 : 160",
+            "303 : 279 : 366"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "a13", "number": 13,
+          "id": "a13",
+          "number": 13,
           "text": "3 : 9 : 108 :: __",
-          "options": ["4 : 16 : 304", "5 : 25 : 750", "6 : 36 : 216", "7 : 49 : 343", "8 : 64 : 256"],
+          "options": [
+            "4 : 16 : 304",
+            "5 : 25 : 750",
+            "6 : 36 : 216",
+            "7 : 49 : 343",
+            "8 : 64 : 256"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "a14", "number": 14,
+          "id": "a14",
+          "number": 14,
           "text": "13 : 17 : 14 :: __",
-          "options": ["21 : 25 : 23", "34 : 37 : 33", "47 : 51 : 55", "56 : 60 : 54", "69 : 73 : 70"],
+          "options": [
+            "21 : 25 : 23",
+            "34 : 37 : 33",
+            "47 : 51 : 55",
+            "56 : 60 : 54",
+            "69 : 73 : 70"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "a15", "number": 15,
+          "id": "a15",
+          "number": 15,
           "text": "26 : 29 : 55 :: __",
-          "options": ["34 : 37 : 70", "41 : 44 : 85", "52 : 55 : 105", "66 : 69 : 138", "79 : 82 : 162"],
+          "options": [
+            "34 : 37 : 70",
+            "41 : 44 : 85",
+            "52 : 55 : 105",
+            "66 : 69 : 138",
+            "79 : 82 : 162"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         }
       ]
     },
@@ -467,42 +705,65 @@
       "description": "Evalúa la comprensión del significado figurado de expresiones metafóricas.",
       "questions": [
         {
-          "id": "m1", "number": 1,
+          "id": "m1",
+          "number": 1,
           "text": "El bar era una cueva de ladrones.",
           "options": ["casa", "guarida", "habitación", "mercado", "oficina"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "m2", "number": 2,
+          "id": "m2",
+          "number": 2,
           "text": "La biblioteca es un banco del conocimiento.",
           "options": ["ahorro", "cuenta", "depósito", "dinero", "riqueza"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "m3", "number": 3,
+          "id": "m3",
+          "number": 3,
           "text": "La calumnia fue una mancha en su reputación.",
           "options": ["agravio", "crítica", "defecto", "marca", "ofensa"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "m4", "number": 4,
+          "id": "m4",
+          "number": 4,
           "text": "La lengua es la espada del orador.",
-          "options": ["arma", "estrategia", "habilidad", "herramienta", "utensilio"],
+          "options": [
+            "arma",
+            "estrategia",
+            "habilidad",
+            "herramienta",
+            "utensilio"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "m5", "number": 5,
+          "id": "m5",
+          "number": 5,
           "text": "Tu padre es la columna de la familia.",
-          "options": ["el eje", "el fundamento", "el sostén", "la base", "la fortaleza"],
+          "options": [
+            "el eje",
+            "el fundamento",
+            "el sostén",
+            "la base",
+            "la fortaleza"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "m6", "number": 6,
+          "id": "m6",
+          "number": 6,
           "text": "Está como pez en el agua.",
           "options": [
             "alguien que está nadando",
@@ -512,66 +773,120 @@
             "se hace deporte en el lugar adecuado"
           ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "m7", "number": 7,
+          "id": "m7",
+          "number": 7,
           "text": "El verdugo del pecador.",
-          "options": ["el rechazo", "la condena", "la culpa", "la resignación", "la venganza"],
+          "options": [
+            "el rechazo",
+            "la condena",
+            "la culpa",
+            "la resignación",
+            "la venganza"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "m8", "number": 8,
+          "id": "m8",
+          "number": 8,
           "text": "Su presencia afluye el ambiente.",
           "options": ["contamina", "llena", "purifica", "se esconde", "vacía"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "m9", "number": 9,
+          "id": "m9",
+          "number": 9,
           "text": "El anciano se sintió desvencijado.",
-          "options": ["desalentado", "desgraciado", "desventurado", "partido", "preocupado"],
+          "options": [
+            "desalentado",
+            "desgraciado",
+            "desventurado",
+            "partido",
+            "preocupado"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "m10", "number": 10,
+          "id": "m10",
+          "number": 10,
           "text": "Su embravecido lenguaje admiró a los escritores.",
-          "options": ["anárquico", "atrevido", "chocante", "enfurecido", "grotesco"],
+          "options": [
+            "anárquico",
+            "atrevido",
+            "chocante",
+            "enfurecido",
+            "grotesco"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "m11", "number": 11,
+          "id": "m11",
+          "number": 11,
           "text": "Las olas chocaban briosamente en los arrecifes.",
-          "options": ["animadamente", "atrevidamente", "audazmente", "decididamente", "impetuosamente"],
+          "options": [
+            "animadamente",
+            "atrevidamente",
+            "audazmente",
+            "decididamente",
+            "impetuosamente"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "m12", "number": 12,
+          "id": "m12",
+          "number": 12,
           "text": "La brisa irrumpió los sembradíos.",
           "options": ["arrasó", "dañó", "destruyó", "invadió", "taló"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "m13", "number": 13,
+          "id": "m13",
+          "number": 13,
           "text": "Sus historias eran forasteras para los muchachos.",
-          "options": ["censurables", "extrañas", "fascinantes", "maliciosas", "peligrosas"],
+          "options": [
+            "censurables",
+            "extrañas",
+            "fascinantes",
+            "maliciosas",
+            "peligrosas"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "m14", "number": 14,
+          "id": "m14",
+          "number": 14,
           "text": "La abuela es un cerrojo de confianza.",
-          "options": ["discreta", "depósito", "imprudente", "poco accesible", "silenciosa"],
+          "options": [
+            "discreta",
+            "depósito",
+            "imprudente",
+            "poco accesible",
+            "silenciosa"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "m15", "number": 15,
+          "id": "m15",
+          "number": 15,
           "text": "Mi habitación es mi remanso.",
           "options": [
             "mi lugar para soñar",
@@ -581,7 +896,8 @@
             "mi lugar para descansar"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         }
       ]
     },
@@ -591,7 +907,8 @@
       "description": "Determina representaciones y equivalencias a partir de sustituciones simbólicas.",
       "questions": [
         {
-          "id": "c1", "number": 1,
+          "id": "c1",
+          "number": 1,
           "text": "A = V+E, B = F+G, C = A+D, D = H+I, I = V+K. ¿A qué es igual A+C?",
           "options": [
             "V+H+I+F+D+K+F",
@@ -601,10 +918,12 @@
             "V+E+H+V+E+K"
           ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "c2", "number": 2,
+          "id": "c2",
+          "number": 2,
           "text": "a=b+c, c=x+y, d=a+r, r=f+h. ¿A qué equivale q cuando q=a+r?",
           "options": [
             "q=f+x+h+b+y",
@@ -614,17 +933,27 @@
             "q=x+y+r+f+a"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "c3", "number": 3,
+          "id": "c3",
+          "number": 3,
           "text": "7=RPX2, 2=1W, 5=KF3, 9=LE5. ¿Representación del número 79?",
-          "options": ["RPQX1WLE5KF3", "RPX1WLEKF53", "RPX1WLEKF3", "RPX21WLE5FK3", "RPX1WEL5KF3"],
+          "options": [
+            "RPQX1WLE5KF3",
+            "RPX1WLEKF53",
+            "RPX1WLEKF3",
+            "RPX21WLE5FK3",
+            "RPX1WEL5KF3"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "c4", "number": 4,
+          "id": "c4",
+          "number": 4,
           "text": "T=O+P+Q, S=R+T+U, R=M+N+L, Q=D+E+F, P=U+Q, M=P. ¿A qué es igual M+R?",
           "options": [
             "U+L+E+F+N+D",
@@ -634,10 +963,12 @@
             "F+M+E+D+L"
           ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "c5", "number": 5,
+          "id": "c5",
+          "number": 5,
           "text": "J+K+L=M, K+M+N=G, G+G=N, F+G+H=L, F+G+F=K. ¿A qué es igual K+L-N?",
           "options": [
             "F+F+F+H-G+G",
@@ -647,10 +978,12 @@
             "F+F+F+H"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "c6", "number": 6,
+          "id": "c6",
+          "number": 6,
           "text": "A+B+C=D, E+F+G=H, I+J+K=C, L+M+N=F, O+P+Q=E. ¿A qué es igual C+H-D?",
           "options": [
             "E+F+G-C",
@@ -660,10 +993,12 @@
             "I+J+K+E+F+G+A+B"
           ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "c7", "number": 7,
+          "id": "c7",
+          "number": 7,
           "text": "J+K+L=M, K+M+N=G, G+G=N, F+G+H=L, F+G+F=K. ¿A qué es igual M+N?",
           "options": [
             "J+K+L+G+N",
@@ -673,49 +1008,39 @@
             "K+M+N+K+M+N"
           ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "c8", "number": 8,
+          "id": "c8",
+          "number": 8,
           "text": "A=V+E, K=F+G, V=A+D, D=H+I, E=V+K. ¿A qué es igual A+E?",
-          "options": [
-            "A+D+K",
-            "V+K+A",
-            "A+H+I+K",
-            "A+H+I+A+D+F+G",
-            "F+G+V"
-          ],
+          "options": ["A+D+K", "V+K+A", "A+H+I+K", "A+H+I+A+D+F+G", "F+G+V"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "c9", "number": 9,
+          "id": "c9",
+          "number": 9,
           "text": "A=V+E, K=F+G, V=A+D, D=H+I, E=V+K. ¿A qué es igual A?",
-          "options": [
-            "A+D+A+D+K",
-            "V+K+A",
-            "A+H+I+K",
-            "A+D+K",
-            "F+G+V"
-          ],
+          "options": ["A+D+A+D+K", "V+K+A", "A+H+I+K", "A+D+K", "F+G+V"],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "c10", "number": 10,
+          "id": "c10",
+          "number": 10,
           "text": "A=V+E, K=F+G, V=A+D, D=H+I, E=V+K. ¿A qué es igual E?",
-          "options": [
-            "F+G+A+D+K",
-            "V+K+A",
-            "A+H+I+F",
-            "A+D+K+F",
-            "F+G+V"
-          ],
+          "options": ["F+G+A+D+K", "V+K+A", "A+H+I+F", "A+D+K+F", "F+G+V"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "c11", "number": 11,
+          "id": "c11",
+          "number": 11,
           "text": "a=b+c, c=x+y, d=a+r, r=f+h. ¿A qué equivale p cuando p=c+d?",
           "options": [
             "p=x+y+f+h",
@@ -725,7 +1050,8 @@
             "p=b+x+y+f+h"
           ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         }
       ]
     },
@@ -735,42 +1061,83 @@
       "description": "Evalúa la capacidad de ordenar y comparar elementos según relaciones dadas.",
       "questions": [
         {
-          "id": "d1", "number": 1,
+          "id": "d1",
+          "number": 1,
           "text": "Ramírez, Palacios, Saldaña y Galindo compran en la misma tienda. Ramírez y Palacios tienen más tiempo que Saldaña. Galindo es más reciente que Palacios pero con más antigüedad que Ramírez. ¿Quién es el más reciente y quién le sigue?",
-          "options": ["Galindo, Ramírez", "Galindo, Saldaña", "Ramírez, Saldaña", "Palacios, Saldaña", "Saldaña, Ramírez"],
+          "options": [
+            "Galindo, Ramírez",
+            "Galindo, Saldaña",
+            "Ramírez, Saldaña",
+            "Palacios, Saldaña",
+            "Saldaña, Ramírez"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d2", "number": 2,
+          "id": "d2",
+          "number": 2,
           "text": "Juan es más pacífico que Timoteo, Pablo más pacífico que Sergio pero más irascible que Timoteo. Juan es más irascible que Mario. Sergio es más pacífico que Joel. ¿Quiénes están en medio de los otros 4?",
-          "options": ["Sergio y Pablo", "Joel y Sergio", "Pablo y Timoteo", "Timoteo y Juan", "Juan y Mario"],
+          "options": [
+            "Sergio y Pablo",
+            "Joel y Sergio",
+            "Pablo y Timoteo",
+            "Timoteo y Juan",
+            "Juan y Mario"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": null
         },
         {
-          "id": "d3", "number": 3,
+          "id": "d3",
+          "number": 3,
           "text": "Jacinto hace más ejercicio que Pedro pero menos que Martín. Martín hace más que Jacinto pero menos que René. ¿Quién hace más ejercicio y quién le sigue?",
-          "options": ["Jacinto, Pedro", "Martín, René", "Martín, Jacinto", "Jacinto, René", "René, Martín"],
+          "options": [
+            "Jacinto, Pedro",
+            "Martín, René",
+            "Martín, Jacinto",
+            "Jacinto, René",
+            "René, Martín"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d4", "number": 4,
+          "id": "d4",
+          "number": 4,
           "text": "Isabel nada peor que Julia. Felícitas es mejor que Julia. Elena es peor que Isabel. ¿Quién es la mejor y quién le sigue?",
-          "options": ["Felícitas, Julia", "Julia, Felícitas", "Felícitas, Isabel", "Julia, Isabel", "Isabel, Julia"],
+          "options": [
+            "Felícitas, Julia",
+            "Julia, Felícitas",
+            "Felícitas, Isabel",
+            "Julia, Isabel",
+            "Isabel, Julia"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "d5", "number": 5,
+          "id": "d5",
+          "number": 5,
           "text": "Manuel camina más que Leonardo. Bruno camina más que Nerón pero menos que Leonardo. ¿Quién vive más lejos y quién más cerca?",
-          "options": ["Manuel, Leonardo", "Leonardo, Bruno", "Manuel, Bruno", "Bruno, Nerón", "Manuel, Nerón"],
+          "options": [
+            "Manuel, Leonardo",
+            "Leonardo, Bruno",
+            "Manuel, Bruno",
+            "Bruno, Nerón",
+            "Manuel, Nerón"
+          ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d6", "number": 6,
+          "id": "d6",
+          "number": 6,
           "text": "Carmen gastó menos que Rita pero más artículos que María. Paola gastó más que María pero menos que Rita. ¿En qué orden se puede ubicar Paola con relación a las demás?",
           "options": [
             "Paola gastó más que Carmen",
@@ -780,10 +1147,12 @@
             "No se sabe si gastó más que Carmen"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d7", "number": 7,
+          "id": "d7",
+          "number": 7,
           "text": "Alfonso y Carlos son más hábiles para ajedrez que Salvador. Gregorio es menos hábil que Carlos pero más hábil que Alfonso. ¿Orden de menor a mayor habilidad?",
           "options": [
             "Salvador, Alfonso, Gregorio, Carlos",
@@ -793,10 +1162,12 @@
             "Gregorio, Salvador, Carlos, Alfonso"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "d8", "number": 8,
+          "id": "d8",
+          "number": 8,
           "text": "Roberto y Alfredo están más alegres que Daniel. Alberto está menos alegre que Roberto pero más que Alfredo. ¿Orden de mayor a menor alegría?",
           "options": [
             "Roberto, Alberto, Alfredo, Daniel",
@@ -806,24 +1177,36 @@
             "Daniel, Alfredo, Alberto, Roberto"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "d9", "number": 9,
+          "id": "d9",
+          "number": 9,
           "text": "Enrique nació 4 años después que Ricardo. Francisco es 3 años mayor que Enrique. Gerardo es casi 9 años menor que Francisco. Héctor nació 7 meses después que Gerardo. ¿Quién es el más joven?",
           "options": ["Enrique", "Francisco", "Gerardo", "Héctor", "Ricardo"],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": null
         },
         {
-          "id": "d10", "number": 10,
+          "id": "d10",
+          "number": 10,
           "text": "Francia no ha ganado tantas Copas del Mundo como Alemania. Argentina ha ganado menos que Alemania pero más que Francia. ¿Qué país ha ganado más y quién le sigue?",
-          "options": ["Argentina, Alemania", "Alemania, Argentina", "Francia, Alemania", "Alemania, Francia", "Francia, Argentina"],
+          "options": [
+            "Argentina, Alemania",
+            "Alemania, Argentina",
+            "Francia, Alemania",
+            "Alemania, Francia",
+            "Francia, Argentina"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": null
         },
         {
-          "id": "d11", "number": 11,
+          "id": "d11",
+          "number": 11,
           "text": "Karla nació 15 años después que Oscar. Armando triplica la edad de Oscar. Ximena nació después que Oscar. Alfredo es menos viejo que Armando pero mucho menos joven que Oscar. ¿Cuál aseveración es correcta?",
           "options": [
             "Ximena es mayor que Oscar",
@@ -833,10 +1216,12 @@
             "Alfredo es mayor que Oscar"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d12", "number": 12,
+          "id": "d12",
+          "number": 12,
           "text": "Cica ganó más que Landy pero menos que Reppa. Reppa ganó más que Rody. Child ganó más que Cica pero menos que Rody. ¿Orden de mayor a menor ganancia?",
           "options": [
             "Cica, Landy, Child, Rody, Reppa",
@@ -846,24 +1231,36 @@
             "Reppa, Rody, Child, Cica, Landy"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d13", "number": 13,
+          "id": "d13",
+          "number": 13,
           "text": "Carla tiene 3 apartamentos y 4 posesiones en total. Ileana tiene tantas casas como apartamentos tiene Carla, y una posesión más que Carla. Teresa posee 1 casa menos que Carla. Entre tres tienen 9 casas y 6 apartamentos. ¿Cuántas casas tiene Carla y cuántas Blanca?",
-          "options": ["Carla 1 y Blanca 5", "Carla 2 y Blanca 4", "Carla 3 y Blanca 3", "Carla 4 y Blanca 2", "Carla 5 y Blanca 1"],
+          "options": [
+            "Carla 1 y Blanca 5",
+            "Carla 2 y Blanca 4",
+            "Carla 3 y Blanca 3",
+            "Carla 4 y Blanca 2",
+            "Carla 5 y Blanca 1"
+          ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         },
         {
-          "id": "d14", "number": 14,
+          "id": "d14",
+          "number": 14,
           "text": "Rubén, Sergio y Antonio tienen 16 libros. Rubén tiene 4 libros (mitad Barroco, 1 Moderno). Sergio tiene igual que Rubén pero mitad de Barroco e igual Moderno. Antonio tiene 1 Posmoderno y tantos Moderno como Posmoderno tiene Sergio. ¿Cuántos libros de arte Barroco tienen entre todos?",
           "options": ["4", "5", "6", "7", "8"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": null
         },
         {
-          "id": "d15", "number": 15,
+          "id": "d15",
+          "number": 15,
           "text": "Darío recibió 6 postales de Carlos y Julio (iguales de cada uno). Pedro envió 6 a Carlos y 2 a Julio. Darío envió 3 a Pedro y a Luis 1 más que Pedro a Julio. Luis envió 2 a Julio. Todos comenzaron con 10. ¿Cuál opción es correcta?",
           "options": [
             "Carlos fue el que tuvo más postales al final",
@@ -873,7 +1270,8 @@
             "Pedro y Luis se quedaron con menos postales que los demás"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": null
         }
       ]
     },
@@ -883,14 +1281,17 @@
       "description": "Mide la capacidad para usar correctamente las reglas de inferencia lógica con diagramas.",
       "questions": [
         {
-          "id": "rc1", "number": 1,
+          "id": "rc1",
+          "number": 1,
           "text": "María desea comprar: leche de vaca, carne de cerdo y huevos de gallina. Según el diagrama de Venn, ¿a qué zonas debe dirigirse?",
           "options": ["2, 3, 5", "2, 5, 6", "1, 4, 6", "1, 3, 7", "4, 3, 6"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p76_q1_venn_animals.png"
         },
         {
-          "id": "rc2", "number": 2,
+          "id": "rc2",
+          "number": 2,
           "text": "Con base en el diagrama de viajes (Luis-Cancún, Carlos-Acapulco/Cancún/Guanajuato, Mario-Acapulco/Guanajuato): ¿Cuál alternativa es falsa?",
           "options": [
             "Carlos y Mario pueden ir a Acapulco",
@@ -900,17 +1301,21 @@
             "Carlos puede viajar a Guanajuato"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": "/images/diag_p76_q2_venn_travel.png"
         },
         {
-          "id": "rc3", "number": 3,
+          "id": "rc3",
+          "number": 3,
           "text": "Según el diagrama de aves: Café, Colibrí, Azules, Águila, Grises, Avestruz, Negros, Guacamaya. ¿En qué zona se confirma 'Algunas aves muy pequeñas son azules'?",
           "options": ["8", "6", "5", "4", "3"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": "/images/diag_p76_q3_venn_birds.png"
         },
         {
-          "id": "rc4", "number": 4,
+          "id": "rc4",
+          "number": 4,
           "text": "José y Rubén son tenistas. Sólo los mexicanos no compitieron en el torneo. José y Rubén no son mexicanos. ¿Cuál es verdadera?",
           "options": [
             "José y Rubén no compitieron en el torneo de tenis",
@@ -920,10 +1325,12 @@
             "En el torneo de tenis compitieron José y Rubén"
           ],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": "/images/diag_p77_q4_venn_tenistas.png"
         },
         {
-          "id": "rc5", "number": 5,
+          "id": "rc5",
+          "number": 5,
           "text": "Las rosas y claveles se usan en ramos. Las flores de algunos cactus no se usan en ramos. ¿Cuál es verdadera?",
           "options": [
             "Todas las flores se usan en ramos",
@@ -933,10 +1340,12 @@
             "Las rosas y los claveles no siempre se usan en los ramos"
           ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p77_q5_venn_flores.png"
         },
         {
-          "id": "rc6", "number": 6,
+          "id": "rc6",
+          "number": 6,
           "text": "Dado el diagrama: Aparatos eléctricos contiene Estufas y Televisiones. Artículos del hogar contiene Televisiones y Sillones. ¿Cuál es verdadera?",
           "options": [
             "No todas las estufas son aparatos eléctricos",
@@ -946,70 +1355,125 @@
             "Todos los artículos del hogar son útiles"
           ],
           "answer": "A",
-          "answerIndex": 0
+          "answerIndex": 0,
+          "image": "/images/diag_p78_q6_venn_aparatos.png"
         },
         {
-          "id": "rc7", "number": 7,
+          "id": "rc7",
+          "number": 7,
           "text": "Dado el diagrama con conjuntos A, B, C, D, E donde B se intersecta con A y C, D es subconjunto de C, E contiene A: ¿Cuál debe ser verdadera?",
-          "options": ["Ninguna B es D", "Todas las D son C", "No todas las C son B", "Algunas A son C", "Todas las B son D"],
+          "options": [
+            "Ninguna B es D",
+            "Todas las D son C",
+            "No todas las C son B",
+            "Algunas A son C",
+            "Todas las B son D"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p78_q7_venn_ABCDE_1.png"
         },
         {
-          "id": "rc8", "number": 8,
+          "id": "rc8",
+          "number": 8,
           "text": "Dado el diagrama con B, C, E superpuestos, A y D separados parcialmente: ¿Cuál debe ser verdadera?",
-          "options": ["Ninguna B es A", "Todas las D son C", "No todas las C son A", "Algunas A son C", "Ninguna D es E"],
+          "options": [
+            "Ninguna B es A",
+            "Todas las D son C",
+            "No todas las C son A",
+            "Algunas A son C",
+            "Ninguna D es E"
+          ],
           "answer": "D",
-          "answerIndex": 3
+          "answerIndex": 3,
+          "image": "/images/diag_p78_q8_venn_ABCDE_2.png"
         },
         {
-          "id": "rc9", "number": 9,
+          "id": "rc9",
+          "number": 9,
           "text": "Dado el diagrama: A contiene B, B se intersecta con C y D, E está fuera de A: ¿Cuál debe ser verdadera?",
-          "options": ["Ninguna B es D", "Todas las D son C", "No todas las C son B", "Ninguna E es A", "Ninguna B es E"],
+          "options": [
+            "Ninguna B es D",
+            "Todas las D son C",
+            "No todas las C son B",
+            "Ninguna E es A",
+            "Ninguna B es E"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p78_q9_venn_ABCDE_3.png"
         },
         {
-          "id": "rc10", "number": 10,
+          "id": "rc10",
+          "number": 10,
           "text": "Un grupo necesita un reporte sobre la Bolsa de Valores de la semana pasada. Según el diagrama de fuentes (Biblioteca, Hemeroteca, Sala de estudios, Videoteca, Cineteca): ¿a qué lugar debe acudir?",
           "options": ["A", "B", "C", "E", "F"],
           "answer": "E",
-          "answerIndex": 4
+          "answerIndex": 4,
+          "image": "/images/diag_p79_q10_venn_biblioteca.png"
         },
         {
-          "id": "rc11", "number": 11,
+          "id": "rc11",
+          "number": 11,
           "text": "La Sra. Díaz compró una batidora y un sofá cama. Según el diagrama de tienda (Electrodomésticos, Artículos para cocina, Muebles de madera, Muebles de tela, Muebles de piel, Sillones): ¿qué lugares visitó?",
           "options": ["C-H", "B-J", "A-I", "C-I", "B-M"],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": "/images/diag_p79_q11_venn_tienda.png"
         },
         {
-          "id": "rc12", "number": 12,
+          "id": "rc12",
+          "number": 12,
           "text": "El médico está remodelando su consultorio y compró equipo. Según el diagrama (Muebles, Artículos para profesionistas, Equipo para atención al paciente, Artículos para construcción, Consultorios, Hospitales): ¿qué lugar visitó?",
           "options": ["A-B", "B-C", "B-D", "D-H", "B-N"],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p79_q12_venn_medico.png"
         },
         {
-          "id": "rc13", "number": 13,
+          "id": "rc13",
+          "number": 13,
           "text": "Dado el diagrama: A contiene B que se intersecta con C, D es subconjunto de C extendido, E está fuera de todo. ¿Cuál debe ser falsa?",
-          "options": ["Toda C no es B", "Toda A no es E", "No toda B es A", "Alguna B es D", "Todas las D son E"],
+          "options": [
+            "Toda C no es B",
+            "Toda A no es E",
+            "No toda B es A",
+            "Alguna B es D",
+            "Todas las D son E"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": "/images/diag_p79_q13_venn_ABCDE_4.png"
         },
         {
-          "id": "rc14", "number": 14,
+          "id": "rc14",
+          "number": 14,
           "text": "Dado el diagrama con A, B, C, D, E todos intersectados en distintos grados: ¿Cuál debe ser falsa?",
-          "options": ["Toda C no es B", "Toda A es E", "No toda B es A", "Alguna B es D", "Toda D es E"],
+          "options": [
+            "Toda C no es B",
+            "Toda A es E",
+            "No toda B es A",
+            "Alguna B es D",
+            "Toda D es E"
+          ],
           "answer": "B",
-          "answerIndex": 1
+          "answerIndex": 1,
+          "image": "/images/diag_p80_q14_venn_ABCDE_5.png"
         },
         {
-          "id": "rc15", "number": 15,
+          "id": "rc15",
+          "number": 15,
           "text": "Dado el diagrama: A contiene B y C (intersectados), D está parcialmente fuera, E contiene parte de B: ¿Cuál debe ser falsa?",
-          "options": ["Toda C no es B", "Ninguna A es D", "Alguna B es A", "Alguna B es D", "Toda C es E"],
+          "options": [
+            "Toda C no es B",
+            "Ninguna A es D",
+            "Alguna B es A",
+            "Alguna B es D",
+            "Toda C es E"
+          ],
           "answer": "C",
-          "answerIndex": 2
+          "answerIndex": 2,
+          "image": "/images/diag_p80_q15_venn_ABCDE_6.png"
         }
       ]
     }

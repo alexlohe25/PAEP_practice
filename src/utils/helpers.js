@@ -18,4 +18,5 @@ export const getTheme = () => ({
   text: "#e6e2dc",
   muted: "#686460",
   dim: "#3a3a48",
+  fontFamily: "'Helvetica', sans-serif",
 });

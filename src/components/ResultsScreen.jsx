@@ -32,7 +32,7 @@ export default function ResultsScreen({
         minHeight: "100vh",
         background: T.bg,
         color: T.text,
-        fontFamily: "Georgia,serif",
+        fontFamily: T.fontFamily,
       }}
     >
       <div

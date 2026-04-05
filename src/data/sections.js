@@ -1083,6 +1083,7 @@ export const SECTIONS = [
         text: "María quiere comprar: leche de vaca, carne de cerdo y huevos de gallina. Según el diagrama de Venn, ¿a qué zonas debe ir?",
         options: ["2, 3, 5", "2, 5, 6", "1, 4, 6", "1, 3, 7", "4, 3, 6"],
         answerIndex: 2,
+        image: "/images/diag_p76_q1_venn_animals.png",
         exp: "Zona 1: solo Vaca (leche de vaca). Zona 4: intersección Cerdo (carne de cerdo). Zona 6: solo Gallina (huevos de gallina). Respuesta: 1, 4, 6.",
       },
       {
@@ -1096,6 +1097,7 @@ export const SECTIONS = [
           "Carlos puede viajar a Guanajuato",
         ],
         answerIndex: 4,
+        image: "/images/diag_p76_q2_venn_travel.png",
         exp: "Según el diagrama, Carlos está en la intersección que incluye Guanajuato, por lo que sí puede viajar ahí. Afirmar que 'Carlos puede viajar a Guanajuato' es verdadero, no falso. La alternativa falsa según la clave es E.",
       },
       {
@@ -1103,6 +1105,7 @@ export const SECTIONS = [
         text: "Diagrama de aves: Colibrí es pequeño y azul. ¿En qué zona se confirma 'Algunas aves muy pequeñas son azules'?",
         options: ["8", "6", "5", "4", "3"],
         answerIndex: 4,
+        image: "/images/diag_p76_q3_venn_birds.png",
         exp: "La zona 3 corresponde a la intersección entre Colibrí (ave muy pequeña) y Azules. Ahí se confirma que algunas aves muy pequeñas son azules.",
       },
       {
@@ -1116,6 +1119,7 @@ export const SECTIONS = [
           "En el torneo compitieron José y Rubén",
         ],
         answerIndex: 4,
+        image: "/images/diag_p77_q4_venn_tenistas.png",
         exp: "Si solo los mexicanos no compitieron, y José y Rubén no son mexicanos (están fuera de ese grupo), entonces sí compitieron. ✓",
       },
       {
@@ -1129,6 +1133,7 @@ export const SECTIONS = [
           "Las rosas y claveles no siempre se usan en ramos",
         ],
         answerIndex: 2,
+        image: "/images/diag_p77_q5_venn_flores.png",
         exp: "'Algunos cactus no se usan' implica lógicamente que otros sí se usan. Por contraposición, 'las flores de algunos cactus sí se usan en ramos' es verdadera. ✓",
       },
       {
@@ -1142,6 +1147,7 @@ export const SECTIONS = [
           "Todos los artículos del hogar son útiles",
         ],
         answerIndex: 0,
+        image: "/images/diag_p78_q6_venn_aparatos.png",
         exp: "La opción A es verdadera según la estructura del diagrama, donde no todas las estufas necesariamente caen dentro del conjunto de aparatos eléctricos representado.",
       },
       {
@@ -1155,6 +1161,7 @@ export const SECTIONS = [
           "Todas las B son D",
         ],
         answerIndex: 2,
+        image: "/images/diag_p78_q7_venn_ABCDE_1.png",
         exp: "C es un conjunto más amplio que B (B solo se intersecta con parte de C). Existen elementos de C que no son B → 'No todas las C son B'. ✓",
       },
       {
@@ -1168,6 +1175,7 @@ export const SECTIONS = [
           "Ninguna D es E",
         ],
         answerIndex: 3,
+        image: "/images/diag_p78_q8_venn_ABCDE_2.png",
         exp: "Si A y C tienen una zona de intersección (aunque parcial), entonces 'algunas A son C'. ✓",
       },
       {
@@ -1181,6 +1189,7 @@ export const SECTIONS = [
           "Ninguna B es E",
         ],
         answerIndex: 2,
+        image: "/images/diag_p78_q9_venn_ABCDE_3.png",
         exp: "C es más amplio que B; B toca solo parte de C. Existen elementos de C fuera de B → 'No todas las C son B'. ✓",
       },
       {
@@ -1188,6 +1197,7 @@ export const SECTIONS = [
         text: "Estudiantes necesitan un reporte escrito sobre la Bolsa de Valores de la semana pasada. Diagrama: Biblioteca, Hemeroteca, Sala de estudios, Videoteca, Cineteca. ¿A qué zona deben ir?",
         options: ["A", "B", "C", "E", "F"],
         answerIndex: 4,
+        image: "/images/diag_p79_q10_venn_biblioteca.png",
         exp: "La hemeroteca guarda publicaciones periódicas recientes (periódicos financieros, revistas). Para información escrita de la semana pasada sobre la Bolsa, la zona F (solo Hemeroteca) es la indicada.",
       },
       {
@@ -1195,6 +1205,7 @@ export const SECTIONS = [
         text: "La Sra. Díaz compró una batidora (electrodoméstico) y un sofá cama (mueble de tela con sillón). ¿Qué zonas del diagrama visitó?",
         options: ["C-H", "B-J", "A-I", "C-I", "B-M"],
         answerIndex: 1,
+        image: "/images/diag_p79_q11_venn_tienda.png",
         exp: "Una batidora es un electrodoméstico → zona del círculo de Electrodomésticos. Un sofá cama es mueble de tela y también sillón → zona J (intersección muebles tela + sillones). Visitó B y J.",
       },
       {
@@ -1202,6 +1213,7 @@ export const SECTIONS = [
         text: "El médico remodelando su consultorio compró equipo médico. ¿Qué zona del diagrama visitó?",
         options: ["A-B", "B-C", "B-D", "D-H", "B-N"],
         answerIndex: 2,
+        image: "/images/diag_p79_q12_venn_medico.png",
         exp: "Artículos para profesionistas (médico) y equipo para atención al paciente coinciden en la zona B-D.",
       },
       {
@@ -1215,6 +1227,7 @@ export const SECTIONS = [
           "Todas las D son E",
         ],
         answerIndex: 1,
+        image: "/images/diag_p79_q13_venn_ABCDE_4.png",
         exp: "E está completamente fuera de A → ninguna A es E → 'Toda A no es E' es verdadera. Pero según la clave, la afirmación B es la falsa en este diagrama particular.",
       },
       {
@@ -1228,6 +1241,7 @@ export const SECTIONS = [
           "Toda D es E",
         ],
         answerIndex: 1,
+        image: "/images/diag_p80_q14_venn_ABCDE_5.png",
         exp: "Si A y E se intersectan pero no se contienen completamente, no toda A es E → 'Toda A es E' es falsa. ✓",
       },
       {
@@ -1241,6 +1255,7 @@ export const SECTIONS = [
           "Toda C es E",
         ],
         answerIndex: 2,
+        image: "/images/diag_p80_q15_venn_ABCDE_6.png",
         exp: "Si B está dentro de A, entonces toda B es parte de A → 'Alguna B es A' es verdadera, no falsa. Según la clave, la afirmación C es falsa en este diagrama.",
       },
     ],
